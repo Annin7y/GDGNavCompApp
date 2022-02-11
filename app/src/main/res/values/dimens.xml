@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="first_frag_start">20dp</dimen>
+    <dimen name="first_frag_top">5dp</dimen>
+    <dimen name="second_frag_start">30dp</dimen>
+    <dimen name="second_frag_top">60dp</dimen>
+    <dimen name="firstfrag_sec_text_top">60dp</dimen>
+</resources>

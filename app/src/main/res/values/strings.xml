@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GDGNavCompApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">First Fragment</string>
+    <string name="on_to_the_second_fragment_we_go">On to the second fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="on_to_the_third_fragment_we_go">On to the third fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+    <string name="here_we_are">Here we are</string>
+</resources>

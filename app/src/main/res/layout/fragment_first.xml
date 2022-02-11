@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    tools:context=".fragments.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/firstFragText"
+        style="@style/FragmentTextStyle"
+        android:layout_marginStart="@dimen/first_frag_start"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/first_fragment" />
+
+    <TextView
+        android:id="@+id/first_frag_text2"
+        style="@style/FragmentTextStyle"
+        android:layout_marginStart="@dimen/first_frag_start"
+        android:layout_marginTop="@dimen/firstfrag_sec_text_top"
+        android:text="@string/on_to_the_second_fragment_we_go"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/firstFragText"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
