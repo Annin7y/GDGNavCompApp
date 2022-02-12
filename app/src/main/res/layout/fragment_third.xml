@@ -23,12 +23,11 @@
     <TextView
         android:id="@+id/third_frag_text2"
         style="@style/FragmentTextStyle"
-        android:layout_marginStart="@dimen/first_frag_start"
-        android:layout_marginTop="@dimen/first_frag_top"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="276dp"
         android:text="@string/here_we_are"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/thirdFragText"
-        />
+        app:layout_constraintTop_toBottomOf="@id/thirdFragText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
